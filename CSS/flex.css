@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+nav {
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.iCon1 {
+    position: absolute;
+    font-size: 35px;
+    right: 150px;
+    top: 0;
+}
+
+.iCon2 {
+    position: absolute;
+    font-size: 35px;
+    right: 100px;
+    top: 0;
+}
+
+.iCon3 {
+    position: absolute;
+    font-size: 35px;
+    right: 50px;
+    top: 0;
+}
+
+.iCon1:hover {
+    opacity: 0.3;
+    color: hsl(7, 78%, 51%);
+    transform: rotate(30deg);
+}
+
+.iCon2:hover {
+    opacity: 0.3;
+    color: hsl(7, 78%, 51%);
+    transform: rotate(30deg);
+}
+
+.iCon3:hover {
+    opacity: 0.3;
+    color: hsl(7, 78%, 51%);
+    transform: rotate(30deg);
+}
+
+section {
+    background-color: rgb(175, 175, 175);
+    height: 2500px;
+    padding: 10px;
+}
+
+h1 {
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    border: none;
+    width: 400px;
+    height: 500px;
+    margin: 50px;
+    overflow: hidden;
+}
+
+.p {
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.img1 {
+    position: relative;
+    background-image: url(https://i.pinimg.com/564x/6f/f2/aa/6ff2aa1448a701650103e3fcfe71a8ca.jpg);
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    position: relative;
+    background-image: url(https://i.pinimg.com/564x/2d/bd/cd/2dbdcdc1612f4af5fce37f4d53bfacb5.jpg);
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    position: relative;
+    background-image: url(https://i.pinimg.com/564x/12/ad/6e/12ad6e3bb8f032e103ad0b31c2203d9a.jpg);
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img4 {
+    position: relative;
+    background-image: url(https://i.pinimg.com/564x/8f/d1/7f/8fd17ff80eaa65190e6a67d0897cac33.jpg);
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img5 {
+    position: relative;
+    background-image: url(https://i.pinimg.com/564x/62/98/01/6298016a4f80b031c61257c70b82c03b.jpg);
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
